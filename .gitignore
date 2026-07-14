@@ -1,3 +1,22 @@
+# ===== SEER DATA - NEVER COMMIT =====
+data/
+*.txt
+*.csv
+*.xlsx
+*.parquet
+*.zip
+!data/README.md
+!requirements.txt
+
+# Notebook checkpoints can contain data previews
+.ipynb_checkpoints/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
