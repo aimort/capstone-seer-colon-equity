@@ -39,19 +39,19 @@ To obtain the data yourself:
 - **Key features:** age band, sex, race/ethnicity, colon subsite, county median
   household income, rurality, marital status, tumour grade, histology, tumour size
 - **Data dictionary:**
-**late_stage** — Combined Summary Stage with Expanded Regional Codes (2004+). Binary. Outcome (RQ1, RQ2). 1 = regional/distant; 0 = localized.
-**surgery** — Reason no cancer-directed surgery. Binary. Outcome (RQ3, RQ4). 1 = cancer-directed surgery; 0 = none.
-**age_group** — Age at diagnosis. Categorical. Predictor (all RQs). <50; 50-64; 65-74; 75+.
-**age_num** — Age at diagnosis. Numerical. Predictor (all RQs). Years.
-**sex** — Sex. Categorical. Predictor (all RQs). Male; Female.
-**race_eth** — Race/ethnicity recode. Categorical. Predictor (all RQs). Non-Hispanic White; Non-Hispanic Black; Hispanic; Non-Hispanic Asian or Pacific Islander; Non-Hispanic American Indian or Alaska Native.
-**subsite** — Primary Site - labeled. Categorical. Predictor (all RQs). Proximal/right (C18.0, C18.2-C18.4); distal/left (C18.5-C18.7).
-**income5** — County median household income (SEER county attribute). Ordinal. Predictor (all RQs). <$60k; $60-75k; $75-90k; $90-110k; $110k+.
-**rurality** — Rural-Urban Continuum (derived). Categorical. Predictor (all RQs). Metropolitan; non-metropolitan.
-**marital** — Marital status at diagnosis (recode). Categorical. Predictor (all RQs). Married; unmarried (single/separated/divorced/widowed).
-**grade** — Grade. Categorical. Predictor (RQ3, RQ4). Low; High.
-**histology** — ICD-O-3 histology. Categorical. Predictor (RQ3, RQ4). Adenocarcinoma NOS; variant.
-**tumor_size** — Tumor Size Summary. Continuous. Predictor (RQ3, RQ4). Millimetres.
+**late_stage**  Combined Summary Stage with Expanded Regional Codes (2004+). Binary. Outcome (RQ1, RQ2). 1 = regional/distant; 0 = localized.
+**surgery**  Reason no cancer-directed surgery. Binary. Outcome (RQ3, RQ4). 1 = cancer-directed surgery; 0 = none.
+**age_group**  Age at diagnosis. Categorical. Predictor (all RQs). <50; 50-64; 65-74; 75+.
+**age_num**  Age at diagnosis. Numerical. Predictor (all RQs). Years.
+**sex**  Sex. Categorical. Predictor (all RQs). Male; Female.
+**race_eth**  Race/ethnicity recode. Categorical. Predictor (all RQs). Non-Hispanic White; Non-Hispanic Black; Hispanic; Non-Hispanic Asian or Pacific Islander; Non-Hispanic American Indian or Alaska Native.
+**subsite**  Primary Site - labeled. Categorical. Predictor (all RQs). Proximal/right (C18.0, C18.2-C18.4); distal/left (C18.5-C18.7).
+**income5** County median household income (SEER county attribute). Ordinal. Predictor (all RQs). <$60k; $60-75k; $75-90k; $90-110k; $110k+.
+**rurality**  Rural-Urban Continuum (derived). Categorical. Predictor (all RQs). Metropolitan; non-metropolitan.
+**marital**  Marital status at diagnosis (recode). Categorical. Predictor (all RQs). Married; unmarried (single/separated/divorced/widowed).
+**grade**  Grade. Categorical. Predictor (RQ3, RQ4). Low; High.
+**histology**  ICD-O-3 histology. Categorical. Predictor (RQ3, RQ4). Adenocarcinoma NOS; variant.
+**tumor_size**  Tumor Size Summary. Continuous. Predictor (RQ3, RQ4). Millimetres.
 
 ## How to run
 ```bash
