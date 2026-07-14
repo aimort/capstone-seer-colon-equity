@@ -1,1 +1,18 @@
+Database name: Surveillance, Epidemiology, and End Results (SEER) Program (www.seer.cancer.gov) SEER*Stat Database: Incidence - SEER Research Data, 17 Registries, Nov 2025 Sub (2000-2023) - Linked To County Attributes - Time Dependent (1990-2024) Income/Rurality, 1969-2024 Counties, National Cancer Institute, DCCPS, Surveillance Research Program, released April 2026, based on the November 2025 submission. 
+
+Database URL: https://seer.cancer.gov/data-software/documentation/seerstat/nov2025/ 
+
+Software version: SEER*Stat 9.0.43.0 
+
+Software URL: https://seer.cancer.gov/seerstat/ 
+
+SEER*STAT query:
+
+{Race, Sex, Year Dx.Year of diagnosis} = '2018','2019','2020','2021','2022','2023'
+AND {Site and Morphology.Primary Site - labeled} = 'C18.0-Cecum','C18.2-Ascending colon','C18.3-Hepatic flexure of colon','C18.4-Transverse colon','C18.5-Splenic flexure of colon','C18.6-Descending colon','C18.7-Sigmoid colon'
+AND {Site and Morphology.Histologic Type ICD-O-3} = 8140-8141,8143,8145,8147,8210-8211,8213,8220-8221,8255,8260-8263,8265,8480-8481,8490
+AND {Site and Morphology.Diagnostic Confirmation} = 'Microscopically confirmed','  Positive histology','  Positive exfoliative cytology, no positive histology','  Pos hist AND immunophenotyping AND/OR pos genetic studies','  Positive microscopic confirm, method not specified'
+AND {Multiple Primary Fields.Sequence number} = 'One primary only','1st of 2 or more primaries'
+AND {Other.Type of Reporting Source} != 'Autopsy only','Death certificate only'
+AND {Race and Age (case data only).Age recode with single ages and 90+} = '18 years','19 years','20 years','21 years','22 years','23 years','24 years','25 years','26 years','27 years','28 years','29 years','30 years','31 years','32 years','33 years','34 years','35 years','36 years','37 years','38 years','39 years','40 years','41 years','42 years','43 years','44 years','45 years','46 years','47 years','48 years','49 years','50 years','51 years','52 years','53 years','54 years','55 years','56 years','57 years','58 years','59 years','60 years','61 years','62 years','63 years','64 years','65 years','66 years','67 years','68 years','69 years','70 years','71 years','72 years','73 years','74 years','75 years','76 years','77 years','78 years','79 years','80 years','81 years','82 years','83 years','84 years','85 years','86 years','87 years','88 years','89 years','90+ years'
 
