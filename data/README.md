@@ -8,3 +8,7 @@ To obtain the data:
 2. Install SEER*Stat: https://seer.cancer.gov/seerstat/
 3. Run the query in ../seerstat/query_spec.md
 4. Export the results into this folder as a .txt file (this folder is git-ignored)
+
+Without SEER access, the code can be read but not executed. The query
+specification in ../seerstat/query_spec.md reproduces the exact cohort for
+any authorized SEER user.
